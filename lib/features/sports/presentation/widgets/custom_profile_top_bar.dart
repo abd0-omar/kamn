@@ -14,13 +14,24 @@ class CustomProfileTopBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          IconButton(
-            color: AppPallete.whiteColor,
-            icon: Icon(Icons.arrow_back, size: 32.h),
-            // Adjust size using ScreenUtil
-            onPressed: () {
-              // Action for back button
-            },
+          Container(
+            height: 37,
+            width: 37,
+            decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                color: AppPallete.whiteColor.withOpacity(0.10)),
+            child: IconButton(
+              padding: EdgeInsets.only(right: 5),
+              color: AppPallete.whiteColor,
+              icon: Icon(
+                Icons.arrow_back,
+                size: 24.h,
+              ),
+              // Adjust size using ScreenUtil
+              onPressed: () {
+                // Action for back button
+              },
+            ),
           ),
           Text(Constants.myProfile,
               style: TextStyles.font20White // Adjust font size
