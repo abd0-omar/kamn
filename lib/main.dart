@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kamn/features/sports/presentation/screens/ground_details_screen.dart';
 import 'package:kamn/features/sports/presentation/screens/my_profile_screen.dart';
 
+import 'features/sports/presentation/screens/choose_your_game_screen.dart';
 import 'init_dependencies.dart';
 
 void main() async {
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
-          home: const MyProfileScreen()
+          home: const ChooseYourGameScreen()
           //GroundDetailsScreen(),
           ),
     );
