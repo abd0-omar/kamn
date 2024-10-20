@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class AppPallete {
   static const Color backgroundColor = Color.fromRGBO(24, 24, 32, 1);
   static const Color greyFontColor = Color(0xff60708F);
-  static const Color greyColor = Color(0xff272B40);
   static const Color lightGreyColor = Color(0xffB1BED8);
   static const Color transpentWhiteColor = Color.fromARGB(155, 248, 248, 248);
   static const Color lightTranspentWhiteColor =
@@ -40,4 +39,14 @@ class AppPallete {
   static const Color fifthColor = Color.fromARGB(255, 20, 30, 70);
   static const Color tranperanceGrey = Color.fromARGB(92, 103, 103, 103);
   static const Color blue = Color.fromARGB(255, 67, 96, 226);
+
+  static const Color mainColor = Color(0xffA117F1);
+  static const Color greyColor = Color(0xff8E8E93);
+  static const Color greenColor = Color(0xff016F13);
+  static const Color lightGreenColor = Color(0xff4CD964);
+  static const Color ofWhiteColor = Color(0xffF6F6F6);
+  static const Color lgGreyColor = Color(0xffD9D9D9);
+  static const Color yellowColor = Color(0xffFFC73C);
+  static const Color vividVioletColor = Color(0xffA117F1);
+  static const Color orangeAccentColor = Colors.orangeAccent;
 }

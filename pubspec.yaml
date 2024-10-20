@@ -69,6 +69,11 @@ dependencies:
 
   #secure my datas
   flutter_secure_storage: ^9.2.2
+  #A simple image slideshow widget.
+  flutter_image_slideshow: ^0.1.6
+  #An SVG rendering and widget library for Flutter
+  flutter_svg: ^2.0.10+1
+  read_more_less: ^1.0.0
 
 
 
@@ -95,8 +100,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
+    - assets/icons/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
