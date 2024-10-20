@@ -35,6 +35,7 @@ class CustomUserData extends StatelessWidget {
           ),
           const Spacer(),
           IconButton(
+            padding: EdgeInsets.zero,
             icon: ImageIcon(
               const AssetImage(ImageLinks.NotePencilIcon),
               size: 32.h,

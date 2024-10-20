@@ -15,22 +15,23 @@ class CustomProfileTopBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            height: 37,
-            width: 37,
+            height: 37.h,
+            width: 37.h,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(15),
                 color: AppPallete.whiteColor.withOpacity(0.10)),
-            child: IconButton(
-              padding: EdgeInsets.only(right: 5),
-              color: AppPallete.whiteColor,
-              icon: Icon(
-                Icons.arrow_back,
-                size: 24.h,
+            child: Center(
+              child: IconButton(
+                padding: EdgeInsets.zero,
+                icon: Icon(
+                  Icons.arrow_back,
+                  color: AppPallete.whiteColor,
+                  size: 24.h,
+                ),
+                onPressed: () {
+                  // Action for back button
+                },
               ),
-              // Adjust size using ScreenUtil
-              onPressed: () {
-                // Action for back button
-              },
             ),
           ),
           Text(Constants.myProfile,

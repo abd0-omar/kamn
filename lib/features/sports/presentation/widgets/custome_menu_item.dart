@@ -7,7 +7,7 @@ class CustomeMenuItem extends StatelessWidget {
   final String title;
   final String image;
 
-   const CustomeMenuItem({
+  const CustomeMenuItem({
     super.key,
     required this.image,
     required this.title,
@@ -25,7 +25,7 @@ class CustomeMenuItem extends StatelessWidget {
       // Responsive icon size
       title: Text(
         title,
-        style: TextStyle(fontSize: 16.sp), // Responsive font size
+        style: TextStyle(fontSize: 16.h), // Responsive font size
       ),
       trailing: Icon(Icons.arrow_forward_ios, size: 16.h, color: Colors.grey),
       // Responsive icon size
