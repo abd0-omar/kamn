@@ -5,7 +5,6 @@ import 'package:kamn/core/helpers/spacer.dart';
 import 'package:kamn/core/theme/app_pallete.dart';
 import 'package:kamn/core/theme/style.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:read_more_less/read_more_less.dart';
 
 class CustomePlayGroundInfo extends StatefulWidget {
   const CustomePlayGroundInfo({super.key});
