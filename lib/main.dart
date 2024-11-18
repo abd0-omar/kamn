@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kamn/core/di/di.dart';
 import 'package:kamn/core/routing/routes.dart';
+import 'package:kamn/features/admin/presentation/analytics_ui/fl_chart_lines/fl_chart_screen.dart';
 import 'package:kamn/firebase_options.dart';
 
 import 'core/routing/app_router.dart';
@@ -34,8 +35,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        initialRoute: Routes.serviceSelection,
-        onGenerateRoute: AppRouter.generateRoute,
+        home: const MyProfileScreen(),
       ),
     );
   }
